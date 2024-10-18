@@ -10,7 +10,7 @@
         <file>./logs/ProductApplication.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- daily rollover -->
-            <fileNamePattern>ProductApplication.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>./logs/ProductApplication.%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>15</maxHistory>
             <totalSizeCap>3MB</totalSizeCap>
 
